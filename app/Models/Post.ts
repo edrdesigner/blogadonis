@@ -1,6 +1,9 @@
 import { DateTime } from 'luxon'
 import { BaseModel, column } from '@ioc:Adonis/Lucid/Orm'
 
+/**
+ * @memberof Post
+ */
 export default class Post extends BaseModel {
   @column({ isPrimary: true })
   public id: number
